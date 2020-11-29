@@ -36,7 +36,7 @@ class _BmicalcState extends State<Bmicalc> {
       child: Scaffold(
         appBar: (AppBar(
           title: Text(
-            "Calculator IMC",
+            "Calculatrice IMC",
             style: TextStyle(color: Colors.black),
           ),
           elevation: 0.0,
@@ -54,7 +54,7 @@ class _BmicalcState extends State<Bmicalc> {
               Row(
                 children: [
                   radioButton("Male", Colors.black, 0),
-                  radioButton("Female", Colors.pink, 1),
+                  radioButton("Femelle", Colors.pink, 1),
                 ],
               ),
               SizedBox(
